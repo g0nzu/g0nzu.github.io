@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+html {
+  display: table;
+}
+body {
+  font-family: monospace;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-image: url("https://cdn.discordapp.com/attachments/814607483066646571/873414804415578112/back.png");
+  background: #ccccc;
+}
+.container {
+  width:35%;
+  max-width:1000px;
+  min-width: 250px;
+}
+
+.main {
+  font-family: monospace;
+  background-color: #ffffff00;
+  backdrop-filter: blur(3px);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10%;
+
+}
+.title {
+  font-family: monospace;
+  color: black;
+  font-size: 30px;
+}
+
+.p {
+  font-size: 20px;
+}
+
+.jajaborde{
+  height: 4px;
+  width: 100px;
+  margin: 0px auto;
+  background-color: #9175D8;
+  margin-bottom: 37px;
+  margin-top: 5px;
+}
