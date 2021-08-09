@@ -12,7 +12,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  background-image: url("https://cdn.discordapp.com/attachments/814607483066646571/873414804415578112/back.png");
+  background-image: url("https://cdn.discordapp.com/attachments/814607483066646571/874160472432185374/descarga.png");
   background: #ccccc;
   background-position: center center;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
   min-width: 250px;
 }
 .bgr {
-  background-image: url('https://cdn.discordapp.com/attachments/814607483066646571/874160472432185374/descarga.png') !important;
+  background-image: url('https://cdn.discordapp.com/attachments/814607483066646571/873414804415578112/back.png') !important;
 }
 .main {
   font-family: monospace;
