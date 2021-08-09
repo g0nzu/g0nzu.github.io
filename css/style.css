@@ -22,7 +22,9 @@ body {
   max-width:1000px;
   min-width: 250px;
 }
-
+.bgr {
+  background-image: url('https://cdn.discordapp.com/attachments/814607483066646571/874160472432185374/descarga.png') !important;
+}
 .main {
   font-family: monospace;
   background-color: #ffffff00;
@@ -30,7 +32,6 @@ body {
   border-radius: 5px;
   padding: 10px;
   margin-top: 10%;
-
 }
 .title {
   font-family: monospace;
@@ -43,6 +44,7 @@ body {
 }
 
 .jajaborde{
+  border-radius: 16%;
   height: 4px;
   width: 100px;
   margin: 0px auto;
