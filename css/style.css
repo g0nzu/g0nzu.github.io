@@ -5,26 +5,29 @@ html, body {
   width: 100%;
 }
 html {
+  background-color: black;
   display: table;
 }
 body {
+  background-image: url("https://cdn.discordapp.com/attachments/814607483066646571/874160472432185374/descarga.png");
+  transition: background-image 1s ease-in-out;
   font-family: monospace;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  background-image: url("https://cdn.discordapp.com/attachments/814607483066646571/874160472432185374/descarga.png");
   background: #ccccc;
   background-position: center center;
   background-repeat: no-repeat;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
 }
 .container {
   width:35%;
   max-width:1000px;
   min-width: 250px;
 }
-.bgr {
-  background-image: url('https://cdn.discordapp.com/attachments/814607483066646571/873414804415578112/back.png') !important;
-}
+
 .main {
   font-family: monospace;
   background-color: #ffffff00;
