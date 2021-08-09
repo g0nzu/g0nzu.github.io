@@ -57,6 +57,9 @@ class TextScramble {
   }
   
   const phrases = [
+    'gonzu',
+    'g0nzu',
+    'gonzu',
     'g0nzu',
   ]
   
