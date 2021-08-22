@@ -5,10 +5,10 @@ document.addEventListener('click',function myBackground(){
 
 let images = [
   'https://cdn.discordapp.com/attachments/814607483066646571/873414804415578112/back.png',
-  'https://cdn.discordapp.com/attachments/814607483066646571/874156470147616768/cropped-1920-1080-969569.jpg',
-  'https://cdn.discordapp.com/attachments/814607483066646571/874144695817752647/723583.png',
-  'https://cdn.discordapp.com/attachments/814607483066646571/874158627030700082/cropped-1920-1080-1113344.jpg',
-  'https://cdn.discordapp.com/attachments/814607483066646571/874160472432185374/descarga.png',
+  'https://cdn.discordapp.com/attachments/879046991101960232/879047441943515146/cropped-1920-1080-969569.png',
+  'https://cdn.discordapp.com/attachments/879046991101960232/879047608713244702/723583.png',
+  'https://cdn.discordapp.com/attachments/879046991101960232/879047720415952927/cropped-1920-1080-1113344.png',
+  'https://cdn.discordapp.com/attachments/879046991101960232/879047957381537842/descarga.png',
 ];
 
 let index = 0;
