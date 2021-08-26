@@ -1,27 +1,3 @@
-document.addEventListener('click',function myBackground(){
-    changeBackground();
+document.addEventListener('click', () => {
+    document.body.classList.toggle("bgr");
 })
-
-
-let images = [
-  'https://cdn.discordapp.com/attachments/814607483066646571/873414804415578112/back.png',
-  'https://cdn.discordapp.com/attachments/879046991101960232/879047441943515146/cropped-1920-1080-969569.png',
-  'https://cdn.discordapp.com/attachments/879046991101960232/879047608713244702/723583.png',
-  'https://cdn.discordapp.com/attachments/879046991101960232/879047720415952927/cropped-1920-1080-1113344.png',
-  'https://cdn.discordapp.com/attachments/879046991101960232/879047957381537842/descarga.png',
-];
-
-let index = 0;
-function changeBackground(){
-    document.body.style.backgroundImage = "url('"+images[index]+"')";
-  index = (index < images.length-1) ? (index+1) : 0;
-}
-
-
-// change backgroubd every 3 seconds
-var interval = window.setInterval(function(){
-  changeBackground()
-}, 3000); // 1000 = 1 second
-
-// function to stop interval 
-// clearInterval(interval) 
