@@ -22,16 +22,14 @@ body {
   -moz-backface-visibility:    hidden;
   -ms-backface-visibility:     hidden;
 }
+.bgr {
+  background-image: url('https://cdn.discordapp.com/attachments/879046991101960232/879047363577147493/back.png') !important;
+}
 .container {
   width:35%;
   max-width:1000px;
   min-width: 250px;
 }
-
-.bgr {
-  background-image: url('https://cdn.discordapp.com/attachments/879046991101960232/879047363577147493/back.png') !important;
-}
-
 .main {
   font-family: monospace;
   background-color: #ffffff00;
