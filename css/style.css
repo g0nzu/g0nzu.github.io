@@ -9,7 +9,7 @@ html {
   display: table;
 }
 body {
-  background-image: url("https://cdn.discordapp.com/attachments/879046991101960232/879047200657801286/descarga.png");
+  background-image: url("../img/1.png");
   transition: background-image 1s ease-in-out;
   font-family: monospace;
   display: table-cell;
