@@ -23,7 +23,7 @@ body {
   -ms-backface-visibility:     hidden;
 }
 .bgr {
-  background-image: url('https://cdn.discordapp.com/attachments/879046991101960232/879047363577147493/back.png') !important;
+  background-image: url("../img/2.png") !important;
 }
 .container {
   width:35%;
